@@ -1,0 +1,106 @@
+body {
+  font-family: "Space Mono";
+  background-color: white;
+  color: #2E0249;
+  text-align: center;
+  line-height: 1.5;
+
+}
+
+h1, h2 {
+  font-family: "Space Grotesk";
+  color: #ffffff;
+}
+
+h3, h4, h5 {
+  font-family: "Space Grotesk";
+  font-size: 24px; /* Set the font size for h3 */
+  color: #A91079; /* Set the color as needed */
+}
+
+/* Apply the common class to the headings */
+h3.heading, h4.heading, h5.heading {
+  color: #A91079; /* Set the color as needed */
+  /* Add any other common styling for h3, h4, and h5 */
+}
+
+
+li {
+  display: inline;
+  margin-right: 30px; /* Ajoutez la marge souhaitée */
+}
+
+ul {
+  padding: 0px;
+}
+
+.card {
+  background-color: #EEEEEE;
+  padding: 100px;
+  width: 60%;
+  margin: 30px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Add margin to separate cards if needed */
+}
+
+.left {
+  display: inline;
+  width: 30%;
+
+}
+
+.right {
+  display: inline;
+  width: 30%;
+}
+
+.header {
+  background-color: rgb(13,20,54);
+  background: linear-gradient(180deg, rgba(13,20,54,1) 0%, rgba(40,57,119,1) 30%, rgba(63,69,125,1) 50%, rgba(40,57,119,1) 70%, rgba(20,36,93,1) 100%);
+  padding: 100px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #4B0377;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #3E92CC;
+}
+
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
